@@ -210,3 +210,50 @@ body {
 .icon-box img {
     max-width: 25px;
 }
+
+.second-brain {
+    padding: 35px 20px;
+}
+
+.brain-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+.brain-image img {
+    max-width: 100%;
+}
+
+.brain-message {
+    color: seagreen;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.brain-content ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.brain-content li {
+    list-style-image: url("./assets/CheckCircle.png");
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(63, 79, 80);
+    margin-bottom: 10px;
+}
+
+.brain-content h1 {
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.brain-content p {
+    margin-top: 15px;
+    color: rgb(91, 115, 115);
+    font-size: 17px;
+    line-height: 1.5;
+}
