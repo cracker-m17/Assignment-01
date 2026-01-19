@@ -151,3 +151,62 @@ body {
     border-bottom: 6px solid transparent;
 }
 
+.notes {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    margin: -60px 0 0 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-header h1 {
+    font-size: 45px;
+}
+
+.section-header p {
+    margin-top: 10px;
+    color: rgb(91, 115, 115);
+    font-size: 17px;
+}
+
+.notes-cards {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+.note-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+}
+
+.icon-box {
+    background-color: rgb(227, 92, 92);
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.note-card p {
+    color: rgb(91, 115, 115);
+    font-size: 16px;
+}
+
+.note-card h2 {
+    line-height: 1.2;
+}
+
+.icon-box img {
+    max-width: 25px;
+}
