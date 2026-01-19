@@ -257,3 +257,28 @@ body {
     font-size: 17px;
     line-height: 1.5;
 }
+
+.early-access {
+    background-color: rgb(244, 241, 238);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.access-btn {
+    background-color: seagreen;
+    color: white;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.small-text {
+    font-size: 14px;
+    color: #555;
+}
