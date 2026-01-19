@@ -327,3 +327,16 @@ body {
     text-align: center;
     font-size: 14px;
 }
+
+.menu a:hover {
+    color: seagreen;
+}
+
+.note-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+section {
+    margin-bottom: 60px;
+}
