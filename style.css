@@ -92,3 +92,62 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
+
+.banner h1 {
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.primary-btn {
+    background-color: seagreen;
+    color: white;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.outline-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 22px;
+
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.play-icon {
+    width: 0;
+    height: 0;
+
+    border-left: 10px solid white;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
